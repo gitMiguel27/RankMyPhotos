@@ -1,3 +1,38 @@
-h1, h2, p, hr, figcaption, table {
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3C493F;
+    border-bottom: 1px solid #edddd9;
+}
+li {
+    float: right;
+    border-right: 1px solid #edddd9;
+}
+li:first-child {
+    border-right: none;
+}
+li a {
+    display: block;
     color: #edddd9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #A2C3A4;
+}
+.active {
+    background-color: #A2C3A4;
+}
+
+/* setting text color */
+h1, h2, p, hr, figcaption, table, form {
+    color: #edddd9;
+}
+
+.ranking-table {
+    border: 1px solid #edddd9;
 }

@@ -12,7 +12,16 @@
     </style>
 </head>
 <body>
-    <h1>Rank My Photos!</h1>
+    <!--Navbar-->
+    <ul>
+        <li style="float:left"><a href="#form">RANK MY PHOTOS</a></li>
+        <li><a class="active" href="#rank">Home</a></li>
+        <li><a href="#home">Rank</a></li>
+        <li><a href="#about">Form</a></li>
+     </ul>
+
+    <!--Home Section-->
+    <h1> Welcome To Rank My Photos!</h1>
 
     <section>
         <h2>About:</h2>
@@ -29,7 +38,7 @@
         </p>
     </section>
 
-    <hr>
+    <!--Rank Section-->
 
     <section>
         <img src="/images/pic1.jpeg" alt="first picture" height="auto" width="35%">
@@ -47,14 +56,14 @@
         <!-- <img src="/images/pic6.jpeg" alt="sixth picture" height="auto" width="35%"> -->
     </section>
 
-    <table>
+    <table class="ranking-table">
         <tr>
-            <th>Rank Here:</th>
+            <th class="ranking-table">Rank Here:</th>
         </tr>
         <tr>
-            <td>Most Favorite</td>
+            <td class="ranking-table">Most Favorite</td>
             <td>
-                <form action="#">
+                <form class="ranking-table" action="#">
                     <select name="photos">
                       <option value="photo1">Photo 1</option>
                       <option value="photo2">Photo 2</option>
@@ -68,7 +77,7 @@
         <tr>
             <td></td>
             <td>
-                <form action="#">
+                <form class="ranking-table" action="#">
                     <select name="photos">
                       <option value="photo1">Photo 1</option>
                       <option value="photo2">Photo 2</option>
@@ -82,7 +91,7 @@
         <tr>
             <td></td>
             <td>
-                <form action="#">
+                <form class="ranking-table" action="#">
                     <select name="photos">
                       <option value="photo1">Photo 1</option>
                       <option value="photo2">Photo 2</option>
@@ -96,7 +105,7 @@
         <tr>
             <td></td>
             <td>
-                <form action="#">
+                <form class="ranking-table" action="#">
                     <select name="photos">
                       <option value="photo1">Photo 1</option>
                       <option value="photo2">Photo 2</option>
@@ -110,7 +119,7 @@
         <tr>
             <td></td>
             <td>
-                <form action="#">
+                <form class="ranking-table" action="#">
                     <select name="photos">
                       <option value="photo1">Photo 1</option>
                       <option value="photo2">Photo 2</option>
@@ -122,9 +131,9 @@
             </td>
         </tr>
         <tr>
-            <td>Least Favorite</td>
+            <td class="ranking-table">Least Favorite</td>
             <td>
-                <form action="#">
+                <form class="ranking-table" action="#">
                     <select name="photos">
                       <option value="photo1">Photo 1</option>
                       <option value="photo2">Photo 2</option>
@@ -137,8 +146,19 @@
         </tr>
         <tr>
             <td></td>
-            <td><input type="submit"></td>
+            <td class="ranking-table"><input type="submit"></td>
         </tr>
-     </table>
+    </table>
+
+    <!--Form Section-->
+    <form action="#">
+        <label for="Comments">Comments</label>
+        <input type="text" name="comment" id="comment" required>
+        <br>
+        <label for="Idea">Suggest an Idea!</label>
+        <input type="text" name="idea" id="idea" required>
+    </form>
+
+    <iframe src="https://giphy.com/embed/l3q2wJsC23ikJg9xe" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </body>
 </html>
