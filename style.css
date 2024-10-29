@@ -36,3 +36,8 @@ h1, h2, p, hr, figcaption, table, form {
 .ranking-table {
     border: 1px solid #edddd9;
 }
+
+.main-section {
+    display: flex;
+    flex-flow: row wrap;
+}
