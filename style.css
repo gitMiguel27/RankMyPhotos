@@ -40,4 +40,26 @@ h1, h2, p, hr, figcaption, table, form {
 .main-section {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.img-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.card-body {
+    border: 1px solid black;
+    width: 300px;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body figcaption {
+    margin: 8px;
 }
