@@ -29,12 +29,16 @@ li a:hover:not(.active) {
 }
 
 /* setting text color */
-h1, h2, p, hr, figcaption, table, form {
+h1, h2, p, hr, figcaption {
     color: #edddd9;
 }
 
+th, td {
+    color: #3C493F;
+}
+
 .ranking-table {
-    border: 1px solid #edddd9;
+    border: 1px solid #3C493F;
 }
 
 .main-section {
@@ -47,19 +51,32 @@ h1, h2, p, hr, figcaption, table, form {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-
+    margin: 15px auto 50px auto;
 }
 
 .card-body {
-    border: 1px solid black;
-    width: 300px;
+    border: 2.5px solid #edddd9;
+    width: 400px;
+    margin-top: 25px;
 }
 
 .img-container img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 .card-body figcaption {
     margin: 8px;
+    text-align: center;
+}
+
+table.ranking-table {
+    width: 30%;
+    height: 50%;
+    background-color: #edddd9;
+}
+
+select {
+    display: block;
+    width: 100%;
 }
