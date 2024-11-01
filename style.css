@@ -1,5 +1,5 @@
 /* setting text color */
-h1, h2, p, hr, figcaption {
+h1, h2, p {
     color: #edddd9;
 }
 
@@ -9,13 +9,6 @@ h1, h2, p, hr, figcaption {
     width: 60%;
 }
 
-table.ranking-table {
-    width: 30%;
-    height: 50%;
-    background-color: #edddd9;
-}
-
-select {
-    display: block;
-    width: 100%;
+.table {
+    margin: auto;
 }
