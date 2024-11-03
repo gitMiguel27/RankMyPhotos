@@ -12,3 +12,23 @@ h1, h2, p {
 .table {
     margin: auto;
 }
+
+.form-section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.mb-3 {
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#feedback-form-button {
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.gif-section {
+    display: flex;
+    justify-content: center;
+}

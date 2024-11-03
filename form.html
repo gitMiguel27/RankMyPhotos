@@ -33,16 +33,23 @@
     </nav>
     
     <!--Feedback Form-->
-    <form action="#">
-        <label for="Comments">Comments</label>
-        <input type="text" name="comment" id="comment" required>
-        <br>
-        <label for="Idea">Suggest an Idea!</label>
-        <input type="text" name="idea" id="idea" required>
-    </form>
+    <section class="form-section">
+        <div class="mb-3" style="width: 50%">
+            <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3" style="width: 50%">
+            <label for="exampleFormControlTextarea1" class="form-label">Suggest an Idea!</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <input class="btn btn-secondary btn-md" style="width: 50%" id="feedback-form-button" type="submit" value="Submit"></button>
+    </section>
 
-    <iframe src="https://giphy.com/embed/l3q2wJsC23ikJg9xe" width="480" height="360" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-
+    <!--GIF-->
+    <section class="gif-section">
+        <iframe src="https://giphy.com/embed/l3q2wJsC23ikJg9xe" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </section>
+    <!--Footer-->
     <section>
         <h2>Hello this is my footer!</h2>
     </section>
