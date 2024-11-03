@@ -4,28 +4,13 @@ h1, h2, p {
 }
 
 #carouselExampleCaptions {
-    margin: 15px auto 50px auto; 
+    margin: 50px auto 50px auto; 
     height: auto;
-    width: 60%;
+    width: 75%;
 }
 
 .table {
     margin: auto;
-}
-
-.form-section {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.mb-3 {
-    margin-left: auto; 
-    margin-right: auto; 
-}
-
-#feedback-form-button {
-    margin-left: auto; 
-    margin-right: auto; 
 }
 
 .gif-section {

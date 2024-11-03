@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback Form</title>
-    <link rel="stylesheet" href="/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
 
     <style>
         body {
@@ -33,22 +33,40 @@
     </nav>
     
     <!--Feedback Form-->
-    <section class="form-section">
-        <div class="mb-3" style="width: 50%">
-            <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comments Here:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+            </div>
         </div>
-        <div class="mb-3" style="width: 50%">
-            <label for="exampleFormControlTextarea1" class="form-label">Suggest an Idea!</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Suggest an Idea!</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+                </div>
+            </div>
         </div>
-        <input class="btn btn-secondary btn-md" style="width: 50%" id="feedback-form-button" type="submit" value="Submit"></button>
-    </section>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <input class="btn btn-secondary btn-md" style="width: 50%" id="feedback-form-button" type="submit" value="Submit"></button>
+            </div>
+        </div>
 
-    <!--GIF-->
-    <section class="gif-section">
-        <iframe src="https://giphy.com/embed/l3q2wJsC23ikJg9xe" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-    </section>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <iframe src="https://giphy.com/embed/l3q2wJsC23ikJg9xe" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </div>
+        </div>
+    </div>
+
     <!--Footer-->
     <section>
         <h2>Hello this is my footer!</h2>
