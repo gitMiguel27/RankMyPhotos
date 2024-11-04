@@ -2,6 +2,10 @@ h1, h2, h5, p, a {
     color: #edddd9;
 }
 
+#continue-button {
+    color: #3C493F;
+    background-color: #edddd9;
+}
 
 #carouselExampleCaptions {
     margin: 50px auto 50px auto; 
@@ -15,4 +19,12 @@ div.carousel-inner * h5 {
 
 .table {
     margin: auto;
+}
+
+iframe.giphy-embed {
+    height: 360px;
+}
+
+p > a:hover {
+    color: green;
 }
