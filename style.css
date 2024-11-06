@@ -2,6 +2,18 @@ h1, h2, h5, p, a {
     color: #edddd9;
 }
 
+.navbar {
+    background-color: #edddd9;
+}
+
+.navbar-brand {
+    color: #3C493F;
+}
+
+.nav-link {
+    color: #3C493F;
+}
+
 #continue-button {
     color: #3C493F;
     background-color: #edddd9;
