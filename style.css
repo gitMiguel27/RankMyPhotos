@@ -19,6 +19,11 @@ h1, h2, h5, p, a {
     background-color: #edddd9;
 }
 
+#continue-button:hover {
+    color: #edddd9;
+    background-color: #9bc1bc;
+}
+
 #carouselExampleCaptions {
     margin: 50px auto 50px auto; 
     height: auto;
@@ -38,5 +43,14 @@ iframe.giphy-embed {
 }
 
 p > a:hover {
-    color: green;
+    color: #9bc1bc;
+}
+
+footer {
+    background-color: #edddd9;
+    margin-top: 100px;
+}
+
+.footer-text {
+    color: #3C493F;
 }
