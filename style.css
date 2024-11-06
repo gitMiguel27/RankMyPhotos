@@ -38,17 +38,35 @@ div.carousel-inner * h5 {
     margin: auto;
 }
 
-iframe.giphy-embed {
-    height: 360px;
+label.form-label {
+    color: #edddd9;
 }
 
-p > a:hover {
-    color: #9bc1bc;
+textarea.form-control {
+    background-color: #edddd9;
+}
+
+#feedback-form-button {
+    color: #3C493F;
+    background-color: #edddd9;
+}
+
+#feedback-form-button:hover {
+    color: #edddd9;
+    background-color: #9bc1bc;
+}
+
+iframe.giphy-embed {
+    height: 360px;
 }
 
 footer {
     background-color: #edddd9;
     margin-top: 100px;
+}
+
+p > a:hover {
+    color: #9bc1bc;
 }
 
 .footer-text {
